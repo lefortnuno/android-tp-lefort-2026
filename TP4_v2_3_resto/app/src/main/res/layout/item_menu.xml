@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="12dp"
+android:background="?android:attr/selectableItemBackground"
+android:gravity="center_vertical">
+
+<!-- Image du plat -->
+<ImageView
+    android:id="@+id/imageViewPlat"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:layout_marginEnd="12dp"
+    android:scaleType="centerCrop"
+    android:background="@drawable/image_border" />
+
+<!-- Informations du plat -->
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <!-- Nom du plat -->
+    <TextView
+        android:id="@+id/textViewNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <!-- Prix du plat -->
+    <TextView
+        android:id="@+id/textViewPrix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/material_dynamic_secondary60"
+        android:layout_marginTop="4dp" />
+
+    <!-- Description du plat -->
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@color/material_dynamic_neutral60"
+        android:layout_marginTop="4dp"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+</LinearLayout>
+
+</LinearLayout>

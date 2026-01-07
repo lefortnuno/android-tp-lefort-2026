@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le nouveau texte"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="#F0F0F0"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal" >
+        <Button
+            android:id="@+id/btnValidate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:textSize="20sp"
+            android:layout_marginBottom="16dp"
+            android:onClick="validateModification"
+            android:backgroundTint="@color/material_dynamic_neutral60"
+            app:circularflow_defaultRadius="@dimen/cardview_compat_inset_shadow"
+            app:cornerRadius="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/material_dynamic_neutral60"
+            android:onClick="goBack"
+            android:text="Annuler"
+            android:textSize="20sp"
+            app:circularflow_defaultRadius="@dimen/cardview_compat_inset_shadow"
+            app:cornerRadius="@dimen/cardview_compat_inset_shadow" />
+    </LinearLayout>
+
+</LinearLayout>

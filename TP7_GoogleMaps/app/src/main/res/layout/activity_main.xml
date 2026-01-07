@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- BOUTON CHANGEMENT TYPE DE CARTE -->
+    <Button
+        android:id="@+id/btnChangeType"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:text="Mode"
+        android:textSize="16sp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- ZOOM IN -->
+    <Button
+        android:id="@+id/btnZoomIn"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="+"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="80dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentBottom="true"/>
+
+    <!-- ZOOM OUT -->
+    <Button
+        android:id="@+id/btnZoomOut"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:text="-"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

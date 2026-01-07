@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Couleurs Material Design dynamiques -->
+    <color name="material_dynamic_primary60">#2196F3</color>
+    <color name="material_dynamic_secondary60">#4CAF50</color>
+    <color name="material_dynamic_neutral60">#9E9E9E</color>
+    <color name="material_dynamic_error60">#F44336</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+</resources>

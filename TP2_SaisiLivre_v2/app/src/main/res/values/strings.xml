@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IAO_App</string>
+    <string name="default_text">entrez un texte</string>
+    <string name="submit">Submit</string>
+    <color name="gray_button">#B0B0B0</color>
+
+<string name="titre_livre">Titre du livre</string>
+<string name="auteur">Auteur</string>
+<string name="annee_publication">Année de publication</string>
+<string name="code_isbn">Code ISBN</string>
+<string name="notation">Notation</string>
+<string name="enregistrer">Enregistrer le livre</string>
+</resources>

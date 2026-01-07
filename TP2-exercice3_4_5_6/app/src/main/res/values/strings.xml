@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IAO_App</string>
+    <string name="default_text">entrez un texte</string>
+    <string name="submit">Submit</string>
+    <color name="gray_button">#B0B0B0</color>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IAO_App</string>
+    <string name="myfirstapp">My First App</string>
+    <string name="calculatrice">Calculatrice</string>
+    <string name="default_text">Enter a message</string>
+    <string name="submit">Send</string>
+    <color name="gray_button">#B0B0B0</color>
+</resources>
